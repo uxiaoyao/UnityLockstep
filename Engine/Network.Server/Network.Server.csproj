@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy /d /y  &quot;$(TargetDir)Lockstep.*.dll&quot; &quot;$(SolutionDir)..\Server.LiteNetLib\Integration\&quot;&#xD;&#xA;xcopy /d /y  &quot;$(TargetDir)Lockstep.*.pdb&quot; &quot;$(SolutionDir)..\Server.LiteNetLib\Integration\&quot;&#xD;&#xA;xcopy /d /y  &quot;$(TargetDir)Lockstep.*.json&quot; &quot;$(SolutionDir)..\Server.LiteNetLib\Integration\&quot;" />
+<!--    <Exec Command="cp -f $(TargetDir){Lockstep.*} $(SolutionDir)../Server.LiteNetLib/Integration"/>-->
   </Target>
 
   <ItemGroup>

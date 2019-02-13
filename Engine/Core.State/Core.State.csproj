@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Lockstep.Core.State</RootNamespace>
     <AssemblyName>Lockstep.Core.State</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -53,77 +53,77 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Generated\GameState\Components\GameStateHashCodeComponent.cs" />
-    <Compile Include="Generated\GameState\Components\GameStatePausedComponent.cs" />
-    <Compile Include="Generated\GameState\Components\GameStatePredictingComponent.cs" />
-    <Compile Include="Generated\GameState\Components\GameStateTickComponent.cs" />
-    <Compile Include="Generated\Snapshot\Components\SnapshotHashCodeComponent.cs" />
-    <Compile Include="Generated\Snapshot\Components\SnapshotTickComponent.cs" />
-    <Compile Include="Generated\Actor\Components\ActorBackupComponent.cs" />
-    <Compile Include="Generated\Actor\Components\ActorEntityCountComponent.cs" />
-    <Compile Include="Generated\Actor\Components\ActorIdComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameActorIdComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameAssetComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameBackupComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameControllableComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameDestinationComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameHashableComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameHealthComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameIdComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameLocalIdComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameMaxSpeedComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameNavigableComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameNewComponent.cs" />
-    <Compile Include="Generated\Game\Components\GamePositionComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameTeamComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameVelocityComponent.cs" />
-    <Compile Include="Generated\Input\Components\InputActorIdComponent.cs" />
-    <Compile Include="Generated\Input\Components\InputCoordinateComponent.cs" />
-    <Compile Include="Generated\Input\Components\InputEntityConfigIdComponent.cs" />
-    <Compile Include="Generated\Input\Components\InputSelectionComponent.cs" />
-    <Compile Include="Generated\Input\Components\InputTargetActorIdComponent.cs" />
-    <Compile Include="Generated\Input\Components\InputTickComponent.cs" />
-    <Compile Include="Generated\Game\Components\GameDestinationListenerComponent.cs" />
-    <Compile Include="Generated\Game\Components\GamePositionListenerComponent.cs" />
-    <Compile Include="Generated\Snapshot\SnapshotComponentsLookup.cs" />
-    <Compile Include="Generated\Actor\ActorComponentsLookup.cs" />
-    <Compile Include="Generated\GameState\GameStateComponentsLookup.cs" />
-    <Compile Include="Generated\Game\GameComponentsLookup.cs" />
-    <Compile Include="Generated\Input\InputComponentsLookup.cs" />
-    <Compile Include="Generated\Config\ConfigComponentsLookup.cs" />
-    <Compile Include="Generated\Game\GameAttribute.cs" />
-    <Compile Include="Generated\Actor\ActorAttribute.cs" />
-    <Compile Include="Generated\Input\InputAttribute.cs" />
-    <Compile Include="Generated\GameState\GameStateAttribute.cs" />
-    <Compile Include="Generated\Snapshot\SnapshotAttribute.cs" />
-    <Compile Include="Generated\Config\ConfigAttribute.cs" />
-    <Compile Include="Generated\Game\GameContext.cs" />
-    <Compile Include="Generated\Actor\ActorContext.cs" />
-    <Compile Include="Generated\Input\InputContext.cs" />
-    <Compile Include="Generated\GameState\GameStateContext.cs" />
-    <Compile Include="Generated\Snapshot\SnapshotContext.cs" />
-    <Compile Include="Generated\Config\ConfigContext.cs" />
-    <Compile Include="Generated\Game\GameMatcher.cs" />
-    <Compile Include="Generated\Actor\ActorMatcher.cs" />
-    <Compile Include="Generated\Input\InputMatcher.cs" />
-    <Compile Include="Generated\GameState\GameStateMatcher.cs" />
-    <Compile Include="Generated\Snapshot\SnapshotMatcher.cs" />
-    <Compile Include="Generated\Config\ConfigMatcher.cs" />
-    <Compile Include="Generated\Contexts.cs" />
-    <Compile Include="Generated\Game\GameEntity.cs" />
-    <Compile Include="Generated\Actor\ActorEntity.cs" />
-    <Compile Include="Generated\Input\InputEntity.cs" />
-    <Compile Include="Generated\GameState\GameStateEntity.cs" />
-    <Compile Include="Generated\Snapshot\SnapshotEntity.cs" />
-    <Compile Include="Generated\Config\ConfigEntity.cs" />
-    <Compile Include="Generated\Events\Components\DestinationListenerComponent.cs" />
-    <Compile Include="Generated\Events\Components\PositionListenerComponent.cs" />
-    <Compile Include="Generated\Events\Interfaces\IDestinationListener.cs" />
-    <Compile Include="Generated\Events\Interfaces\IPositionListener.cs" />
-    <Compile Include="Generated\Events\Systems\DestinationEventSystem.cs" />
-    <Compile Include="Generated\Events\Systems\PositionEventSystem.cs" />
-    <Compile Include="Generated\Events\GameEventSystems.cs" />
-    <Compile Include="Generated\Feature.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\Components\GameStateHashCodeComponent.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\Components\GameStatePausedComponent.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\Components\GameStatePredictingComponent.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\Components\GameStateTickComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\Components\SnapshotHashCodeComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\Components\SnapshotTickComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\Components\ActorBackupComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\Components\ActorEntityCountComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\Components\ActorIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameActorIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameAssetComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameBackupComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameControllableComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameDestinationComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameHashableComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameHealthComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameLocalIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameMaxSpeedComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameNavigableComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameNewComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GamePositionComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameTeamComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameVelocityComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Input\Components\InputActorIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Input\Components\InputCoordinateComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Input\Components\InputEntityConfigIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Input\Components\InputSelectionComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Input\Components\InputTargetActorIdComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Input\Components\InputTickComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GameDestinationListenerComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Game\Components\GamePositionListenerComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\SnapshotComponentsLookup.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\ActorComponentsLookup.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\GameStateComponentsLookup.cs" />
+    <Compile Include="..\Core.State\Generated\Game\GameComponentsLookup.cs" />
+    <Compile Include="..\Core.State\Generated\Input\InputComponentsLookup.cs" />
+    <Compile Include="..\Core.State\Generated\Config\ConfigComponentsLookup.cs" />
+    <Compile Include="..\Core.State\Generated\Game\GameAttribute.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\ActorAttribute.cs" />
+    <Compile Include="..\Core.State\Generated\Input\InputAttribute.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\GameStateAttribute.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\SnapshotAttribute.cs" />
+    <Compile Include="..\Core.State\Generated\Config\ConfigAttribute.cs" />
+    <Compile Include="..\Core.State\Generated\Game\GameContext.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\ActorContext.cs" />
+    <Compile Include="..\Core.State\Generated\Input\InputContext.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\GameStateContext.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\SnapshotContext.cs" />
+    <Compile Include="..\Core.State\Generated\Config\ConfigContext.cs" />
+    <Compile Include="..\Core.State\Generated\Game\GameMatcher.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\ActorMatcher.cs" />
+    <Compile Include="..\Core.State\Generated\Input\InputMatcher.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\GameStateMatcher.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\SnapshotMatcher.cs" />
+    <Compile Include="..\Core.State\Generated\Config\ConfigMatcher.cs" />
+    <Compile Include="..\Core.State\Generated\Contexts.cs" />
+    <Compile Include="..\Core.State\Generated\Game\GameEntity.cs" />
+    <Compile Include="..\Core.State\Generated\Actor\ActorEntity.cs" />
+    <Compile Include="..\Core.State\Generated\Input\InputEntity.cs" />
+    <Compile Include="..\Core.State\Generated\GameState\GameStateEntity.cs" />
+    <Compile Include="..\Core.State\Generated\Snapshot\SnapshotEntity.cs" />
+    <Compile Include="..\Core.State\Generated\Config\ConfigEntity.cs" />
+    <Compile Include="..\Core.State\Generated\Events\Components\DestinationListenerComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Events\Components\PositionListenerComponent.cs" />
+    <Compile Include="..\Core.State\Generated\Events\Interfaces\IDestinationListener.cs" />
+    <Compile Include="..\Core.State\Generated\Events\Interfaces\IPositionListener.cs" />
+    <Compile Include="..\Core.State\Generated\Events\Systems\DestinationEventSystem.cs" />
+    <Compile Include="..\Core.State\Generated\Events\Systems\PositionEventSystem.cs" />
+    <Compile Include="..\Core.State\Generated\Events\GameEventSystems.cs" />
+    <Compile Include="..\Core.State\Generated\Feature.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Snapshot\HashCodeComponent.cs" />

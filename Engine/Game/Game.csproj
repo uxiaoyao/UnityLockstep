@@ -23,6 +23,6 @@
     </Reference>
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy /d /y  &quot;$(TargetDir)Lockstep.*.dll&quot; &quot;$(SolutionDir)..\Unity\Assets\Integration\&quot;&#xD;&#xA;xcopy /d /y  &quot;$(TargetDir)Lockstep.*.pdb&quot; &quot;$(SolutionDir)..\Unity\Assets\Integration\&quot;&#xD;&#xA;xcopy /d /y  &quot;$(TargetDir)Lockstep.*.json&quot; &quot;$(SolutionDir)..\Unity\Assets\Integration\&quot;" />
+<!--    <Exec Command="cp -f $(TargetDir){Lockstep.*.json} $(SolutionDir)../Unity/Assets/Integration"/>-->
   </Target>
 </Project>

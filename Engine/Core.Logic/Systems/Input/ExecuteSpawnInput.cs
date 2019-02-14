@@ -54,7 +54,8 @@ namespace Lockstep.Core.Logic.Systems.Input
                 e.AddVelocity(Vector2.Zero);
                 e.AddPosition(input.coordinate.value);
 
-                _viewService.LoadView(e, input.entityConfigId.value);
+                if(_viewService!=null)
+                    _viewService.LoadView(e, input.entityConfigId.value);
 
                 actor.ReplaceEntityCount(nextEntityId + 1);
                 _localIdCounter += 1;

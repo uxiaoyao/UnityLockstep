@@ -19,7 +19,7 @@ public class UnityInput : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButtonDown(1))
         {   
             var pos = GetWorldPos(Input.mousePosition);
             FindObjectOfType<RTSEntitySpawner>().Spawn(pos);

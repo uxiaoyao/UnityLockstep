@@ -23,10 +23,10 @@ namespace Test
             Console.SetOut(new Converter(output));
         }      
                                                                                                                                                    
-        [Fact]                      
+        [Fact]             
         public void TestDump()
         {
-            TestFileDump("0_3398952201_log");  
+            TestFileDump("22817079296_log");  
         }
 
         private void TestFileDump(string fileName)
@@ -38,7 +38,7 @@ namespace Test
             var codeBasePath = Uri.UnescapeDataString(codeBaseUrl.AbsolutePath);
             var dirPath = Path.GetDirectoryName(codeBasePath);
 
-            var data = ReadFile($@"{dirPath}\Dumps\{fileName}.txt");
+            var data = ReadFile($@"{dirPath}/Dumps/{fileName}.txt");
             var deserializer = new Deserializer(data);
             var hashCode = deserializer.GetLong();
             var tick = deserializer.GetUInt();

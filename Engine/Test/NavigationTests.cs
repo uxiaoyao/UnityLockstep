@@ -27,6 +27,7 @@ namespace Test
 
             var e = contexts.game.CreateEntity();
             e.AddPosition(Vector2.Zero);
+            e.AddLocalId(0);
 
             var system = new OnNavigableDoRegisterAgent(contexts, service.Object);
 

@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/urhosharp/1.8.93/native/CoreData.pak" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/urhosharp/1.8.93/native/Mac/libmono-urho.dylib" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/urhosharp/1.8.93/native/Win32_DirectX/mono-urho.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/urhosharp/1.8.93/native/Win32_OpenGL/mono-urho.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/urhosharp/1.8.93/native/Win64_DirectX/mono-urho.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/urhosharp/1.8.93/native/Win64_OpenGL/mono-urho.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Common" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Common.csproj" t="IncludeRecursive" />
+        <e p="Comparers.cs" t="Include" />
+        <e p="Extensions.cs" t="Include" />
+        <e p="Logging" t="Include">
+          <e p="Log.cs" t="Include" />
+          <e p="LogEventArgs.cs" t="Include" />
+          <e p="LogSeverity.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Timer.cs" t="Include" />
+        <e p="Util.cs" t="Include" />
+      </e>
+      <e p="Core.Logic" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core.Logic.csproj" t="IncludeRecursive" />
+        <e p="Input.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="ICommand.cs" t="Include" />
+          <e p="ICommandQueue.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Core.Logic.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Serialization" t="Include">
+          <e p="Compressor.cs" t="Include" />
+          <e p="ISerializable.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="Deserializer.cs" t="Include" />
+            <e p="FastBitConverter.cs" t="Include" />
+            <e p="Serializer.cs" t="Include" />
+            <e p="Source.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Systems" t="Include">
+          <e p="Actor" t="Include">
+            <e p="InitializeEntityCount.cs" t="Include" />
+          </e>
+          <e p="Debugging" t="Include">
+            <e p="VerifyNoDuplicateBackups.cs" t="Include" />
+          </e>
+          <e p="GameState" t="Include">
+            <e p="CalculateHashCode.cs" t="Include" />
+            <e p="IncrementTick.cs" t="Include" />
+            <e p="OnNewPredictionCreateSnapshot.cs" t="Include" />
+          </e>
+          <e p="WorldSystems.cs" t="Include" />
+        </e>
+        <e p="World.cs" t="Include" />
+      </e>
+      <e p="Core.State" t="IncludeRecursive">
+        <e p="Actor" t="Include">
+          <e p="BackupComponent.cs" t="Include" />
+          <e p="EntityCountComponent.cs" t="Include" />
+          <e p="IdComponent.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core.State.csproj" t="IncludeRecursive" />
+        <e p="Debug" t="Include">
+          <e p="HashCodeComponent.cs" t="Include" />
+          <e p="TickComponent.cs" t="Include" />
+        </e>
+        <e p="Game" t="Include">
+          <e p="ActorIdComponent.cs" t="Include" />
+          <e p="AssetComponent.cs" t="Include" />
+          <e p="BackupComponent.cs" t="Include" />
+          <e p="ControllableComponent.cs" t="Include" />
+          <e p="DestinationComponent.cs" t="Include" />
+          <e p="DestroyedComponent.cs" t="Include" />
+          <e p="HashableComponent.cs" t="Include" />
+          <e p="HealthComponent.cs" t="Include" />
+          <e p="IdComponent.cs" t="Include" />
+          <e p="LocalIdComponent.cs" t="Include" />
+          <e p="MaxSpeedComponent.cs" t="Include" />
+          <e p="NavigableComponent.cs" t="Include" />
+          <e p="PositionComponent.cs" t="Include" />
+          <e p="RadiusComponent.cs" t="Include" />
+          <e p="RvoAgentSettingsComponent.cs" t="Include" />
+          <e p="TeamComponent.cs" t="Include" />
+          <e p="VelocityComponent.cs" t="Include" />
+        </e>
+        <e p="GameState" t="Include">
+          <e p="HashCodeComponent.cs" t="Include" />
+          <e p="PausedComponent.cs" t="Include" />
+          <e p="PredictingComponent.cs" t="Include" />
+          <e p="TickComponent.cs" t="Include" />
+        </e>
+        <e p="Generated" t="Include">
+          <e p="Actor" t="Include">
+            <e p="ActorAttribute.cs" t="Include" />
+            <e p="ActorComponentsLookup.cs" t="Include" />
+            <e p="ActorContext.cs" t="Include" />
+            <e p="ActorEntity.cs" t="Include" />
+            <e p="ActorMatcher.cs" t="Include" />
+            <e p="Components" t="Include">
+              <e p="ActorBackupComponent.cs" t="Include" />
+              <e p="ActorEntityCountComponent.cs" t="Include" />
+              <e p="ActorIdComponent.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Config" t="Include">
+            <e p="ConfigAttribute.cs" t="Include" />
+            <e p="ConfigComponentsLookup.cs" t="Include" />
+            <e p="ConfigContext.cs" t="Include" />
+            <e p="ConfigEntity.cs" t="Include" />
+            <e p="ConfigMatcher.cs" t="Include" />
+          </e>
+          <e p="Contexts.cs" t="Include" />
+          <e p="Debug" t="Include">
+            <e p="Components" t="Include">
+              <e p="DebugHashCodeComponent.cs" t="Include" />
+              <e p="DebugTickComponent.cs" t="Include" />
+            </e>
+            <e p="DebugAttribute.cs" t="Include" />
+            <e p="DebugComponentsLookup.cs" t="Include" />
+            <e p="DebugContext.cs" t="Include" />
+            <e p="DebugEntity.cs" t="Include" />
+            <e p="DebugMatcher.cs" t="Include" />
+          </e>
+          <e p="Events" t="Include">
+            <e p="Components" t="Include">
+              <e p="DestinationListenerComponent.cs" t="Include" />
+              <e p="PositionListenerComponent.cs" t="Include" />
+            </e>
+            <e p="GameEventSystems.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IDestinationListener.cs" t="Include" />
+              <e p="IPositionListener.cs" t="Include" />
+            </e>
+            <e p="Systems" t="Include">
+              <e p="DestinationEventSystem.cs" t="Include" />
+              <e p="PositionEventSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Feature.cs" t="Include" />
+          <e p="Game" t="Include">
+            <e p="Components" t="Include">
+              <e p="GameActorIdComponent.cs" t="Include" />
+              <e p="GameAssetComponent.cs" t="Include" />
+              <e p="GameBackupComponent.cs" t="Include" />
+              <e p="GameControllableComponent.cs" t="Include" />
+              <e p="GameDestinationComponent.cs" t="Include" />
+              <e p="GameDestinationListenerComponent.cs" t="Include" />
+              <e p="GameDestroyedComponent.cs" t="Include" />
+              <e p="GameHashableComponent.cs" t="Include" />
+              <e p="GameHealthComponent.cs" t="Include" />
+              <e p="GameIdComponent.cs" t="Include" />
+              <e p="GameLocalIdComponent.cs" t="Include" />
+              <e p="GameMaxSpeedComponent.cs" t="Include" />
+              <e p="GameNavigableComponent.cs" t="Include" />
+              <e p="GamePositionComponent.cs" t="Include" />
+              <e p="GamePositionListenerComponent.cs" t="Include" />
+              <e p="GameRadiusComponent.cs" t="Include" />
+              <e p="GameRvoAgentSettingsComponent.cs" t="Include" />
+              <e p="GameTeamComponent.cs" t="Include" />
+              <e p="GameVelocityComponent.cs" t="Include" />
+            </e>
+            <e p="GameAttribute.cs" t="Include" />
+            <e p="GameCleanupSystems.cs" t="Include" />
+            <e p="GameComponentsLookup.cs" t="Include" />
+            <e p="GameContext.cs" t="Include" />
+            <e p="GameEntity.cs" t="Include" />
+            <e p="GameMatcher.cs" t="Include" />
+            <e p="Systems" t="Include">
+              <e p="DestroyDestroyedGameSystem.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GameState" t="Include">
+            <e p="Components" t="Include">
+              <e p="GameStateHashCodeComponent.cs" t="Include" />
+              <e p="GameStatePausedComponent.cs" t="Include" />
+              <e p="GameStatePredictingComponent.cs" t="Include" />
+              <e p="GameStateTickComponent.cs" t="Include" />
+            </e>
+            <e p="GameStateAttribute.cs" t="Include" />
+            <e p="GameStateComponentsLookup.cs" t="Include" />
+            <e p="GameStateContext.cs" t="Include" />
+            <e p="GameStateEntity.cs" t="Include" />
+            <e p="GameStateMatcher.cs" t="Include" />
+          </e>
+          <e p="Input" t="Include">
+            <e p="Components" t="Include">
+              <e p="InputActorIdComponent.cs" t="Include" />
+              <e p="InputCoordinateComponent.cs" t="Include" />
+              <e p="InputEntityConfigIdComponent.cs" t="Include" />
+              <e p="InputSelectionComponent.cs" t="Include" />
+              <e p="InputTargetActorIdComponent.cs" t="Include" />
+              <e p="InputTickComponent.cs" t="Include" />
+            </e>
+            <e p="InputAttribute.cs" t="Include" />
+            <e p="InputComponentsLookup.cs" t="Include" />
+            <e p="InputContext.cs" t="Include" />
+            <e p="InputEntity.cs" t="Include" />
+            <e p="InputMatcher.cs" t="Include" />
+          </e>
+          <e p="Snapshot" t="Include">
+            <e p="Components" t="Include">
+              <e p="SnapshotTickComponent.cs" t="Include" />
+            </e>
+            <e p="SnapshotAttribute.cs" t="Include" />
+            <e p="SnapshotComponentsLookup.cs" t="Include" />
+            <e p="SnapshotContext.cs" t="Include" />
+            <e p="SnapshotEntity.cs" t="Include" />
+            <e p="SnapshotMatcher.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Input" t="Include">
+          <e p="ActorIdComponent.cs" t="Include" />
+          <e p="CoordinateComponent.cs" t="Include" />
+          <e p="EntityConfigIdComponent.cs" t="Include" />
+          <e p="SelectionComponent.cs" t="Include" />
+          <e p="TargetPlayerIdComponent.cs" t="Include" />
+          <e p="TickComponent.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Readme.md" t="Include" />
+        <e p="Snapshot" t="Include">
+          <e p="TickComponent.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Game" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CommandQueue.cs" t="Include" />
+        <e p="Commands" t="Include">
+          <e p="NavigateCommand.cs" t="Include" />
+          <e p="SpawnCommand.cs" t="Include" />
+        </e>
+        <e p="DefaultServices" t="Include">
+          <e p="DefaultViewService.cs" t="Include" />
+        </e>
+        <e p="Features" t="Include">
+          <e p="Cleanup" t="Include">
+            <e p="RemoveDestroyedEntitiesFromView.cs" t="Include" />
+          </e>
+          <e p="CleanupFeature.cs" t="Include" />
+          <e p="Input" t="Include">
+            <e p="ExecuteNavigationInput.cs" t="Include" />
+            <e p="ExecuteSpawnInput.cs" t="Include" />
+            <e p="VerifySelectionIdExists.cs" t="Include" />
+          </e>
+          <e p="InputFeature.cs" t="Include" />
+          <e p="Navigation" t="Include">
+            <e p="RVO" t="Include">
+              <e p="Algorithm" t="Include">
+                <e p="Agent.cs" t="Include" />
+                <e p="KdTree.cs" t="Include" />
+                <e p="Line.cs" t="Include" />
+                <e p="Obstacle.cs" t="Include" />
+                <e p="RVOMath.cs" t="Include" />
+                <e p="Simulator.cs" t="Include" />
+              </e>
+              <e p="NavigationTick.cs" t="Include" />
+              <e p="UpdatePreferredVelocity.cs" t="Include" />
+            </e>
+            <e p="Simple" t="Include">
+              <e p="NavigationTick.cs" t="Include" />
+            </e>
+          </e>
+          <e p="RVONavigationFeature.cs" t="Include" />
+          <e p="SimpleNavigationFeature.cs" t="Include" />
+        </e>
+        <e p="Game.csproj" t="IncludeRecursive" />
+        <e p="GameLog.cs" t="Include" />
+        <e p="Interfaces" t="Include">
+          <e p="IGridService.cs" t="Include" />
+          <e p="IViewService.cs" t="Include" />
+        </e>
+        <e p="IService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Game.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ServiceContainer.cs" t="Include" />
+        <e p="Simulation.cs" t="Include" />
+      </e>
+      <e p="Game.UrhoSharp.Desktop" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Coupling" t="Include">
+          <e p="Listeners.cs" t="Include" />
+          <e p="Services.cs" t="Include" />
+        </e>
+        <e p="Game.cs" t="Include" />
+        <e p="Game.UrhoSharp.Desktop.csproj" t="IncludeRecursive" />
+        <e p="LiteNetLibClient.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="StaticScene.cs" t="Include" />
+        </e>
+        <e p="Win32_DirectX" t="Include" />
+        <e p="Win32_OpenGL" t="Include" />
+        <e p="Win64_DirectX" t="Include" />
+        <e p="Win64_OpenGL" t="Include" />
+      </e>
+      <e p="Lockstep.sln" t="IncludeFlat" />
+      <e p="Network" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Messages" t="Include">
+          <e p="HashCode.cs" t="Include" />
+          <e p="Init.cs" t="Include" />
+        </e>
+        <e p="MessageTag.cs" t="Include" />
+        <e p="Network.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Network.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Network.Client" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="INetwork.cs" t="Include" />
+        <e p="Network.Client.csproj" t="IncludeRecursive" />
+        <e p="NetworkCommandQueue.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Network.Client.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Network.Server" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Interfaces" t="Include">
+          <e p="IServer.cs" t="Include" />
+        </e>
+        <e p="Network.Server.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Network.Server.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Room.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Test" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Converter.cs" t="Include" />
+        <e p="Dumps" t="Include">
+          <e p="-240158465629.bin" t="Include" />
+          <e p="179464547357.bin" t="Include" />
+          <e p="22817079296_log.txt" t="Include" />
+          <e p="58013408818.bin" t="Include" />
+          <e p="RVO" t="Include">
+            <e p="445401195417.bin" t="Include" />
+            <e p="526795398181.bin" t="Include" />
+          </e>
+        </e>
+        <e p="DumpTests.cs" t="Include" />
+        <e p="InputTests.cs" t="Include" />
+        <e p="NavigationTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Test.AssemblyInfo.cs" t="Include" />
+              <e p="Test.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Test.csproj" t="IncludeRecursive" />
+        <e p="TestUtil.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Lockstep.918986118.00" t="ExcludeRecursive" />
+  </component>
+</project>
